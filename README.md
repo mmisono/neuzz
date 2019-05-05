@@ -28,5 +28,15 @@ If you want to try NEUZZ on a new program,
 3. Follow the above two steps to start NN module and NEUZZ module.
 ## Sample programs
 Try 10 real-world programs on NEUZZ. Check setup details at programs/[program names]/README.
+## Setup
+### Docker
+```bash
+bash docker_run.sh
+```
+### Conda
+```bash
+conda env create -f setup/conda.yaml
+conda activate neuzz
+```
 
 

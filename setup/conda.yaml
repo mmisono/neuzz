@@ -1,0 +1,9 @@
+name: neuzz
+dependencies:
+    - python=2.7
+    - cudatoolkit=10.0
+    - cudnn=7.3.1
+    - pip:
+        - tensorflow==1.13.1
+        - tensorflow-gpu==1.13.1
+        - keras
